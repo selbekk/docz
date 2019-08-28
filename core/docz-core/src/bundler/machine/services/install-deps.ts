@@ -16,7 +16,7 @@ export const installDeps = async ({ firstInstall }: ServerMachineCtx) => {
   if (firstInstall) {
     warn('\n----------------')
     warn(`We need to install some dependencies in order to run your bundler.`)
-    warn('This just happen in the first time you run docz.')
+    warn('This only happens the first time you run docz.')
     warn('This could take a while!')
     warn('----------------\n')
   }
